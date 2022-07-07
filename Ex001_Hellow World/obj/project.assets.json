@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Locadm\\.nuget\\packages\\": {}
+    "C:\\Users\\eliak\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\!!!Все мои документы\\!!!Цифровые професси\\Программирование\\ParentGit\\Examples_CS\\Ex001_Hellow World\\Ex001_Hellow World.csproj",
+      "projectUniqueName": "D:\\!!!Все мои документы\\!!!Цифровые профессии\\Программирование\\MyGBProjects\\Examples_CS\\Ex001_Hellow World\\Ex001_Hellow World.csproj",
       "projectName": "Ex001_Hellow World",
-      "projectPath": "C:\\!!!Все мои документы\\!!!Цифровые професси\\Программирование\\ParentGit\\Examples_CS\\Ex001_Hellow World\\Ex001_Hellow World.csproj",
-      "packagesPath": "C:\\Users\\Locadm\\.nuget\\packages\\",
-      "outputPath": "C:\\!!!Все мои документы\\!!!Цифровые професси\\Программирование\\ParentGit\\Examples_CS\\Ex001_Hellow World\\obj\\",
+      "projectPath": "D:\\!!!Все мои документы\\!!!Цифровые профессии\\Программирование\\MyGBProjects\\Examples_CS\\Ex001_Hellow World\\Ex001_Hellow World.csproj",
+      "packagesPath": "C:\\Users\\eliak\\.nuget\\packages\\",
+      "outputPath": "D:\\!!!Все мои документы\\!!!Цифровые профессии\\Программирование\\MyGBProjects\\Examples_CS\\Ex001_Hellow World\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Locadm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\eliak\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
