@@ -21,3 +21,5 @@ if (c2 > max) max = c2;
 if (a3 > max) max = a3;
 if (b3 > max) max = b3;
 if (c3 > max) max = c3; 
+
+Console.WriteLine(max);
