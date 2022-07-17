@@ -14,6 +14,18 @@ void MethodOne()
 // Группа 2
 // Не принимают аргументыи ничего не возвращают
 
+void MethodTwo(string name, int date)
+{
+    Console.WriteLine($"Автор {name}, {date}");
+}
+
+Console.WriteLine("Введите свое имя: ");
+string authorName = Console.ReadLine();
+Console.WriteLine("Введите дату: ");
+int date = Convert.ToInt32(Console.ReadLine());
+
+MethodTwo(name: authorName, date: date);
+
 
 
 // Группа 3
