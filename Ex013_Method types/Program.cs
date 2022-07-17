@@ -34,9 +34,28 @@ int MethodThree()
     return DateTime.Now.Year;
 }
 
-int year = MethodThree();
-Console.WriteLine(year);
+//int year = MethodThree();
+//Console.WriteLine(year);
 
 
 // Группа 4
 // Принимают на вход данные в виде аргументов и возвращают результат
+
+string MethodFourth(int count, string text)
+{
+    int i = 0;
+    string result = string.Empty;
+    while (i < count)
+    {
+        result = result + " " + text;
+        i++;
+    }
+    return result;
+}
+
+Console.WriteLine("Введите текст: ");
+string userText = Console.ReadLine();
+Console.WriteLine("Сколько раз необходимо повторить текст?: ");
+int userCount = Convert.ToInt32(Console.ReadLine());
+string res = MethodFourth(text: userText, count: userCount);
+Console.WriteLine($"{res}");
