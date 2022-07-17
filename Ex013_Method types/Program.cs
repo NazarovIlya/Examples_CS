@@ -19,16 +19,24 @@ void MethodTwo(string name, int date)
     Console.WriteLine($"Автор {name}, {date}");
 }
 
-Console.WriteLine("Введите свое имя: ");
-string authorName = Console.ReadLine();
-Console.WriteLine("Введите дату: ");
-int date = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите свое имя: ");
+// string authorName = Console.ReadLine();
+// Console.WriteLine("Введите дату: ");
+// int date = Convert.ToInt32(Console.ReadLine());
 
-MethodTwo(name: authorName, date: date);
-
-
+// MethodTwo(name: authorName, date: date);
 
 // Группа 3
+// Не принимают на вход данные в виде аргументов, но  возвращают результат
+
+int MethodThree()
+{
+    return DateTime.Now.Year;
+}
+
+int year = MethodThree();
+Console.WriteLine(year);
+
 
 // Группа 4
 // Принимают на вход данные в виде аргументов и возвращают результат
