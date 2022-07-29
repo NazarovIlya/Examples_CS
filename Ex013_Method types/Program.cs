@@ -4,20 +4,20 @@
 // Группа 1
 // Не принимают аргументыи ничего не возвращают
 
-void MethodOne()
-{
-    Console.WriteLine("Автор ФИО");
-}
+// void MethodOne()
+// {
+//     Console.WriteLine("Автор ФИО");
+// }
 
 //MethodOne();      // вызов метода
 
 // Группа 2
 // Не принимают аргументыи ничего не возвращают
 
-void MethodTwo(string name, int date)
-{
-    Console.WriteLine($"Автор {name}, {date}");
-}
+// void MethodTwo(string name, int date)
+// {
+//     Console.WriteLine($"Автор {name}, {date}");
+// }
 
 // Console.WriteLine("Введите свое имя: ");
 // string authorName = Console.ReadLine();
@@ -29,10 +29,10 @@ void MethodTwo(string name, int date)
 // Группа 3
 // Не принимают на вход данные в виде аргументов, но  возвращают результат
 
-int MethodThree()
-{
-    return DateTime.Now.Year;
-}
+// int MethodThree()
+// {
+//     return DateTime.Now.Year;
+// }
 
 //int year = MethodThree();
 //Console.WriteLine(year);
@@ -52,7 +52,8 @@ string MethodFourth(int count, string text)
 }
 
 Console.WriteLine("Введите текст: ");
-string userText = Console.ReadLine();
+string? userText = Console.ReadLine();
+if (userText == null) userText = "";
 Console.WriteLine("Сколько раз необходимо повторить текст?: ");
 int userCount = Convert.ToInt32(Console.ReadLine());
 string res = MethodFourth(text: userText, count: userCount);
