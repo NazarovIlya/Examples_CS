@@ -1,5 +1,4 @@
-﻿// 
-
+﻿// Create and fill matrix
 
 int GetUserInputInt(string userInputStr)
 {
