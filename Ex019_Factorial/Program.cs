@@ -12,8 +12,16 @@ double GetFactorial(int number)
     else return number * GetFactorial(number - 1);
 }
 
+void PrintTableFactorial(int number)
+{
+    for (int i = 1; i <= number; i++)
+    {
+        Console.WriteLine($"Факотриал числа {i} равен {GetFactorial(i)}");
+    }
+
+}
 
 Console.Clear();
 int numF = GetUserInputInt("Факториал какого числа необходимо найти? ");
-double fact = GetFactorial(numF);
-Console.WriteLine($"Факотриал числа {numF} равен {fact}");
+//double fact = GetFactorial(numF);
+PrintTableFactorial(numF);
