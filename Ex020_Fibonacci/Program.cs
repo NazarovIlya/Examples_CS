@@ -15,7 +15,15 @@ double GetFibonacci(int number)
     else return GetFibonacci(number - 1) + GetFibonacci(number - 2);
 }
 
+void PrintFibonacciSequence(int number)
+{
+    for (int i = 1; i <= number; i++)
+    {
+        Console.WriteLine($"Число Фибоначчи под номером {i} --> {GetFibonacci(i)}");
+    }
+}
+
 Console.Clear();
-int numFi = GetUserInputInt("Введите номер числа Фибоначчи: ");
-double fibo = GetFibonacci(numFi);
-Console.WriteLine($"Число Фибоначчи под номером {numFi} -->{fibo}");
+int numFi = GetUserInputInt("Введите количество чисел Фибоначчи: ");
+PrintFibonacciSequence(numFi);
+
