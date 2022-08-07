@@ -18,7 +18,6 @@ void PrintTableFactorial(int number)
     {
         Console.WriteLine($"Факотриал числа {i} равен {GetFactorial(i)}");
     }
-
 }
 
 Console.Clear();
