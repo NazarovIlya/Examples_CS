@@ -13,20 +13,19 @@ void PrintArray(int[] arr)
     Console.WriteLine();
 }
 
-void SelectionSort(int[] arr)
+void SelectionSort(int[] array)
 {
     for (int i = 0; i < array.Length - 1; i++)
     {
         int minPosition = i;
-        for (int j = i + 1; j < arr.Length; j++)
+        for (int j = i + 1; j < array.Length; j++)
         {
-            if (arr[j] < arr[minPosition]) minPosition = j;
+            if (array[j] < array[minPosition]) minPosition = j;
         }
         int temporary = array[i];
         array[i] = array[minPosition];
         array[minPosition] = temporary;
     }
-
 }
 
 PrintArray(array);
